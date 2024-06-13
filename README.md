@@ -48,8 +48,8 @@
 <p>Follow these steps to set up the project for the first time:</p>
 <ol>
     <li><strong>Clone the repository:</strong>
-        <pre><code>git clone https://github.com/PeriAmiga/mouse-race.git
-cd mouse-race</code></pre>
+        <pre><code>git clone https://github.com/PeriAmiga/Mouse-Race-MySQL.git
+cd Mouse-Race-MySQL</code></pre>
     </li>
     <li><strong>Install dependencies:</strong>
         <pre><code>npm install</code></pre>
