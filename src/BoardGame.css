@@ -1,0 +1,63 @@
+.boardGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.stopWatch {
+    margin-top: -350px;
+    margin-bottom: 20px;
+}
+
+.board {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    border: 10px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.element {
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.win, .loss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.tryAgainButton {
+    margin-top: 50px;
+    height: 90px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 40px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sendButton {
+    margin-top: 50px;
+    height: 70px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 40px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nicknameInput {
+    margin-top: 50px;
+    width: 500px;
+    border: 2px solid black;
+}
